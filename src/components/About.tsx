@@ -21,11 +21,11 @@ const About = () => {
 				<div className="flex flex-col md:flex-row items-center gap-10">
 					<div className="md:w-1/2">
 						<Image
-							src="https://res.cloudinary.com/dw4ecbwo9/image/upload/v1746742381/showroom-720x720_yeebff.png"
+							src="https://res.cloudinary.com/dw4ecbwo9/image/upload/v1747711187/image5_qlzpy6.webp"
 							alt="Gym photo"
 							height={684}
 							width={684}
-							className='aspect-square'
+							className='aspect-square object-cover'
 							priority={false}
 						/>
 					</div>

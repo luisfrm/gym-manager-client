@@ -14,19 +14,19 @@ const contact: Contact[] = [
 		title: "Dirección",
 		description: "123 Lorem Ipsum Street, Dolor Sit",
 		icon: <MapPin className="h-12 w-12 text-primary" />,
-    url: "https://maps.app.goo.gl/wMSAPhbnzKqrcQhY8"
+    url: "#"
 	},
   {
     title: "Teléfono",
     description: "+1234567890",
     icon: <Phone className="h-12 w-12 text-primary" />,
-    url: "https://api.whatsapp.com/send?phone=584246248690"
+    url: "https://api.whatsapp.com/send?phone="
   },
   {
     title: "Correo",
     description: "lorem@ipsum.com",
     icon: <Mail className="h-12 w-12 text-primary" />,
-    url: "mailto:info@barbershop.com"
+    url: "mailto:info@marivigym.com"
   }
 ];
 
@@ -44,7 +44,7 @@ const Contact = () => {
 						</div>
 					))}
 				</div>
-        <Link href="https://api.whatsapp.com/send?phone=584246248690">
+        <Link href="https://api.whatsapp.com/send?phone=">
 					<button className="mt-6 w-[90%] lg:w-max bg-gym-banner text-white px-4 py-2 rounded-md hover:bg-gym-highlight transition-all duration-300 cursor-pointer">
 						Contactanos
 					</button>

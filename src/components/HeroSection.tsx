@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => {
   return (
 		<section id="home" className="relative h-[820px] md:h-dvh w-full flex items-center justify-center">
 			<Image
-				src="https://res.cloudinary.com/dw4ecbwo9/image/upload/v1746742381/UFC_GC_022-1_a3v2s3.jpg"
+				src="https://res.cloudinary.com/dw4ecbwo9/image/upload/v1747711391/hero_l2ww1a.jpg"
 				alt="Barbershop interior"
 				priority
 				className="absolute z-0 object-cover hidden md:block"
@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
 				sizes="100vw"
 			/>
 			<Image
-				src="https://res.cloudinary.com/dw4ecbwo9/image/upload/v1746740463/equipment_6_bv0qfv_c_fill_w_513_h_684_ar_34_g_auto_vaknnf.jpg"
+				src="https://res.cloudinary.com/dw4ecbwo9/image/upload/v1747711464/photo_3_2025-05-19_23-15-49_jdvp2n.jpg"
 				alt="Barbershop interior mobile"
 				priority
 				className="absolute z-0 object-fill md:hidden"
